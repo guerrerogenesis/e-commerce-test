@@ -60,6 +60,14 @@ Asegúrate de tener las siguientes herramientas instaladas en tu máquina:
 
 Esto arrancará el servidor en http://localhost:8000 por defecto. Puedes abrir esa URL en tu navegador para ver la aplicación.
 # Para inicializar las vistas solicitadas, ir a http://localhost:8000/orders
+## Al introducir un User ID, usando el dump de sql proporcionado, con el 1 se presentan las siguientes vistas
+![image](https://github.com/user-attachments/assets/5c594ddb-d080-4341-b431-795133304afe)
+
+![image](https://github.com/user-attachments/assets/c459bbde-26eb-4152-b238-2c5fe8898839)
+
+![image](https://github.com/user-attachments/assets/c0722f57-82ba-4b2c-9f51-e90745aab08b)
+
+
 
 
 
