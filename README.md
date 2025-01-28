@@ -21,8 +21,8 @@ Asegúrate de tener las siguientes herramientas instaladas en tu máquina:
 3. **Instala las dependencias:**
    ```bash
    composer install
-   npm install *opcional
-
+   npm install
+   
 4. **Copiar el archivo .env.example**
     Laravel utiliza un archivo .env para la configuración del entorno. Copia el archivo .env.example a .env:
    ```bash
