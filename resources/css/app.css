@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    @apply bg-gray-300 text-gray-800 font-sans min-h-screen flex flex-col
+
+}
+.container{
+    @apply m-auto px-4 
+}
+
+
+.text-status{
+    @apply text-left text-xl font-bold capitalize border-b border-gray-400 py-2
+}
+.text-status[data-status="pendiente"]{
+    @apply text-yellow-800
+}
+.text-status[data-status="enviado"]{
+    @apply text-blue-500
+}
+.text-status[data-status="cancelado"]{
+    @apply text-red-900
+}
+.text-status[data-status="completado"]{
+    @apply text-green-800
+}
